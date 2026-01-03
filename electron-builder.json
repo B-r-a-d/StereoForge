@@ -1,0 +1,10 @@
+{
+  "appId": "com.stereoforge.app",
+  "productName": "StereoForge",
+  "win": {
+    "target": "nsis"
+  },
+  "publish": [
+    { "provider": "github" }
+  ]
+}
