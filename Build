@@ -1,0 +1,93 @@
+npm run build
+
+---
+
+## 🔹 GitHub Release Checklist
+
+✔ Tag versions (`v1.0.0`)  
+✔ Add changelog notes  
+✔ Upload screenshots / GIFs  
+✔ Attach demo MP4  
+
+---
+
+## 🔹 Repo Hygiene
+
+- Commit **small logical changes**
+- No generated files
+- No secrets
+- Use Issues for feature tracking
+
+---
+
+# 3️⃣ User Documentation (Non-Technical, Clear)
+
+You need **two layers**:
+
+1. **Quick Start** (90% of users)
+2. **Advanced Guide** (power users)
+
+---
+
+## 📘 Quick Start (README or docs/quickstart.md)
+
+### What Is StereoForge?
+
+> StereoForge creates animated Magic Eye–style videos that reveal hidden 3D motion when viewed correctly.
+
+---
+
+### Create Your First Video (5 Steps)
+
+1. Launch StereoForge
+2. Choose a preset (e.g. *Walking Cat – Shorts*)
+3. Click **Preview**
+4. Adjust speed / depth
+5. Click **Export Video**
+
+Done.
+
+---
+
+### How to View Stereograms
+
+- Relax your eyes
+- Focus *through* the image
+- The 3D motion will pop out
+
+(Include a GIF or diagram here — very helpful)
+
+---
+
+## 📙 Advanced Guide (docs/advanced.md)
+
+### Presets
+- Control resolution, duration, disparity
+- Batch export supported
+
+### Depth Masks
+- White = closer
+- Black = background
+- No shadows
+
+### Custom Animations
+- Procedural generators
+- JSON-driven presets
+- Walking cat example
+
+### Export Formats
+- MP4 (H.264)
+- Shorts (9:16)
+- High bitrate presets
+
+---
+
+## 🧠 Tooltips (Very Important)
+
+Add **inline help**:
+
+```html
+<label>
+  Disparity
+  <span title="Controls 3D depth strength">?</span>
+</label>
